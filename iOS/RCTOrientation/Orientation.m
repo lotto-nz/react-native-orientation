@@ -3,11 +3,7 @@
 //
 
 #import "Orientation.h"
-#ifdef __has_include(<React/RCTEventDispatcher.h>)
-#import <React/RCTEventDispatcher.h>
-#else
-#import "RCTEventDispatcher.h.h"
-#endif
+#import "RCTEventDispatcher.h"
 
 @implementation Orientation
 @synthesize bridge = _bridge;
